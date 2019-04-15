@@ -1,0 +1,26 @@
+{
+  "name": "web3.wrapper.pmint",
+  "version": "1.0.0",
+  "description": "Wrapper for web3 using extra parameters for transaction on ethereum based blockchain",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel ./src --out-dir ./dist --watch",
+    "build": "babel ./src --out-dir ./dist"
+  },
+  "author": "@hjnp",
+  "license": "ISC",
+  "keywords": [
+    "npm",
+    "web3-wrapper-tx"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {}
+}
